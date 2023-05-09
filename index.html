@@ -1,0 +1,380 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Parul Arora</title>
+</head>
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Parul</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon' ></i>Profile 
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon' ></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon' ></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon' ></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class='bx bx-file nav__icon' ></i>Projects
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt' ></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/parul.jpg" alt="" class="home__img">
+
+                            <h1 class="home__title">PARUL <b>ARORA</b></h1>
+                            <h3 class="home__profession">Software Engineer</h3>
+                            <div> <p>Visits: <span id="counter-id"></span></p></div>
+                            <div>
+                                <a href="assets/pdf/Parul_Arora_CV.pdf" class="home__button-movil">Download</a>
+                            </div>
+    
+                        </div>
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i> Windsor, ON
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> arora68@uwindsor.ca
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i> +1 2269610134
+                                </span>
+                            </div>
+
+                    </div>
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+                    <!-- Button to generate and download pdf -->  
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+                </section>          
+                
+            
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/arora1/" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon' ></i> @parularora
+                        </a>
+                        <a href="https://github.com/Parul0" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon' ></i> @parularora
+                        </a>
+
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile__description">3+ years of professional software engineering experience in developing and maintaining software applications
+with a strong foundation of problem-solving and analytical skills.</p>
+                
+                </section>
+                
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                               <h3 class="education__title">Master of Applied Computing</h3>
+                               <span class="education__studies">University of Windsor</span>
+                               <span class="education__year">Sept. 2022-Present</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                               <h3 class="education__title">Bacelors of Technology, Computer Science and Engineering</h3>
+                               <span class="education__studies">Amity University</span>
+                               <span class="education__year">Jul. 2015-May 2019</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <!-- <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Java
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Python
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> C++
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Git
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> MySQL
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> UiPath
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Linux
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> SOA
+                            </li>
+                             <li class="skills__name">
+                                <span class="skills__circle"></span> OSB
+                            </li>
+                        </ul>
+ -->                
+                        <div id="skills">
+                                <p id="skill-stronger">Java</p>
+                                <p id="skill">Python</p>
+                                <p id="skill-stronger">Linux</p>
+                                <p id="skill-stronger">C++</p>
+                                <p id="skill">Jira</p>
+                                <p id="skill-stronger">Git</p>
+                                <p id="skill-stronger">UiPath</p>
+                                <p id="skill">CSS</p>
+                                <p id="skill-stronger">SOA</p>
+                                <p id="skill-stronger">OSB</p>
+                                <p id="skill">SQL</p>
+                                <p id="skill-stronger">JIRA</p>
+                                <p id="skill">Agile</p>
+                                <p id="skill-stronger">CI/CD</p>
+                                <p id="skill">Hadoop</p>
+                                <p id="skill-stronger">Git</p>
+                                <p id="skill">MySQL</p>					
+                                
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                       <div class="experience__content">
+    <div class="experience__time"> 
+        <span class="experience__rounder"></span>
+        <span class="experience__line"></span>
+    </div>
+
+    <div class="experience__date bd-grid">
+        <h3 class="experience__title">Software Engineer</h3>
+        <span class="experience_company">Jun. 2021- Aug. 2022 |
+            NCR Corporation</span>
+        <p class="experience__description">Responsible for developing solutions using Java and Oracle Fusion creating SOAP/RESTful web services to clean up 1000+ records of data before transferring it to another team to gather insights for the client. Analyzed business requirements and collaborated with department stakeholders to integrate various applications
+            and services. </p>
+    </div>
+</div>
+                       
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__date bd-grid">
+                                <h3 class="experience__title">Software Analyst</h3>
+                                <span class="experience_company">Jun. 2019 - Jun. 2021 | NCR Corporation</span>
+                                <p class="experience__description"> Worked on automationg Finance processes using various tools and technologies. Utilized various data visualization tools to analyze and provide
+                                    visualized data from multiple sources to business stakeholders to help them gather ROI details and help them
+                                    in decision-making.Led end-user training sessions on using the developed software or application, providing clear instructions and
+                                    addressing user questions and concerns.</p>
+                            </div>
+                        </div>
+                     
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__date bd-grid">
+                                <h3 class="experience__title">Intern</h3>
+                                <span class="experience_company">Feb. 2019 - Apr. 2019 | Samsung R&D Institute</span>
+                                <p class="experience__description">Contributed to the Software Engineering team at Samsung’s India Electronics Pvt Ltd as a Trainee. Created 100+ automation test cases and scripts on a weekly basis to enhance software testing efficiency and
+                                    accuracy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+
+                <!--========== Projects ==========-->
+                <section class="project section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+
+                    <div class="project__container bd-grid">
+                        <div class="project__content">
+                            <h3 class="project__title">Client-Server Project</h3>
+                            <p class="project__description">Implemented a client-server project using sockets in C++, which includes file transfer between client and server, and the server's ability to handle multiple clients.</p>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Black Friday Sales Prediction</h3>
+                            <p class="project__description">Conducted data cleaning, preprocessing, and feature engineering using Python and SQL to prepare the data for
+                                analysis of Black Friday sales prediction model using machine learning algorithms to optimize promotional strategies for a retail client.</p>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">OMR Scanner</h3>
+                            <p class="project__description">Developed a Java-based meal management application that helps users maintain a healthy lifestyle by managing their daily meals, tracking water intake, and providing recipe suggestions.This project involved implementing software engineering best practices such as design patterns, agile methodologies, and continuous integration/continuous delivery (CI/CD).</p>
+                        </div>
+                    </div>
+                    
+                </section>
+
+                <!--========== Certifications ==========-->
+                <section class="certification section" id="certifications">
+                    <h2 class="section-title">Achievements</h2>
+
+                    <div class="certification__container bd-grid">
+                        <div class="certification__content">
+                            <h3 class="certification__title">Olympiad | Oct. 2020</h3>
+                            <p class="certification__description">Achieved the 1st Runners Up position out of 200+ companies at the National-level RPA Olympiad 2020 and
+                                was recognized at the World Machine Learning Summit 2020.</p>
+                        </div>
+                        <div class="certification__content">
+                            <h3 class="certification__title">NCR Hackathon | Sep. 2019</h3>
+                            <p class="certification__description">Won ”Best Automation Project Award” in a hackathon hosted by the organization.</p>
+                        </div>
+                    </div>
+                    
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Hindi
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bxl-aws interests__icon'></i>
+                            <span class="interests__name">Music</span>
+                            <i class=''></i>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-football interests__icon' ></i>
+                            <span class="interests__name">Football</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-chess interests__icon' ></i>
+                            <span class="interests__name">Chess</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-podcast interests__icon'></i>
+                            <span class="interests__name">Podcast</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>        
+    </main>
+
+    <script>
+        fetch('https://bkwag13inj.execute-api.ap-south-1.amazonaws.com/prod')
+    .then(res => res.json())
+    .then((data)=>{
+        document.getElementById("counter-id").innerHTML = data;
+    })
+    </script>
+    
+    <!--========== SCROLL TOP ==========-->
+    <a href="" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
