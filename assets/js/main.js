@@ -92,6 +92,22 @@ function removeScale(){
 }
 
 // /*==================== GENERATE PDF ====================*/ 
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the Generate PDF button element
+    var generatePdfButton = document.getElementById('resume-button');
+    
+    // Add event listener for click event
+    generatePdfButton.addEventListener('click', function() {
+        // Create a link element
+        var link = document.createElement('a');
+        link.setAttribute('href', 'assets/pdf/NAV_Canada.pdf');
+        link.setAttribute('download', 'NAV_Canada.pdf');
+        
+        // Simulate click on the link to trigger download
+        link.click();
+    });
+});
+
 // // PDF generated area
 // let areaCv = document.getElementById('area-cv')
 
