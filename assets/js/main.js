@@ -100,8 +100,8 @@ document.addEventListener('DOMContentLoaded', function() {
     generatePdfButton.addEventListener('click', function() {
         // Create a link element
         var link = document.createElement('a');
-        link.setAttribute('href', 'assets/pdf/NAV_Canada.pdf');
-        link.setAttribute('download', 'NAV_Canada.pdf');
+        link.setAttribute('href', 'assets/pdf/Parul_Resume.pdf');
+        link.setAttribute('download', 'Parul_Resume.pdf');
         
         // Simulate click on the link to trigger download
         link.click();
